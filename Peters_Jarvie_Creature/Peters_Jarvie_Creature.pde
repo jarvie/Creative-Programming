@@ -1,3 +1,4 @@
+class peters_jarvie_creature extends Creature {
 float agitation = 0;
  
 void setup() {
@@ -8,7 +9,7 @@ void setAgitation(float newAgitation) {
     agitation = newAgitation;
 }
  
-void draw() {
+void draw(float x, float y) {
     background(3, 136, 253);
     stroke(255, 255, 0);
     fill(255, 255, 0);
@@ -71,4 +72,5 @@ void draw() {
     
     
     
+}
 }
